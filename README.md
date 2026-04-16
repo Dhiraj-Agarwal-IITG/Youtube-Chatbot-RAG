@@ -2,6 +2,8 @@
 
 A Retrieval-Augmented Generation (RAG) web app that lets users paste a YouTube URL and ask questions grounded in the video's transcript.
 
+Web App Link: https://dhiraj-youtube-chatbot-rag.streamlit.app/
+
 ## Features
 
 - Paste a YouTube URL and build a transcript-based knowledge index.
