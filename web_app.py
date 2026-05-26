@@ -136,8 +136,9 @@ if process_video_clicked:
             except TranscriptsDisabled:
                 clear_active_video_context()
                 st.error("No captions available for this video.")
-            except Exception:
+            except Exception as e:
                 clear_active_video_context()
+                st.exception(e)
                 st.error(VIDEO_PROCESSING_HELP_TEXT)
 
 question = st.text_input("Ask a question about the video")
